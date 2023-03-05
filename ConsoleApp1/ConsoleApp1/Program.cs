@@ -31,34 +31,35 @@ namespace ConsoleApp1
 
 
             //Задача 2
-            int max = 0;
-            int min = 0;
-            int[] array = new int[10];
-            Random rnd = new Random();
-            for (int i = 0; i < array.Length; i++)
-            {
-                array[i] = rnd.Next(0, 100);
-                Console.WriteLine();
-            }
-                for (int i = 0; i < array.Length; i++)
-                {
-                    if (array[min] > array[i])
-                    {
-                        min = i;
-                    }
-                    if (array[max] < array[i])
-                    {
-                        max = i;
-                    }
-                }
-            int a = array[min];
-            array[min] = array[max];
-            array[max] = a;
-            Console.WriteLine();
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.Write(array[i] + " ");
-            }
+            //int max = 0;
+            //int min = 0;
+            //int[] array = new int[10];
+            //Random rnd = new Random();
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //    array[i] = rnd.Next(0, 100);
+            //    Console.WriteLine();
+            //}
+            //    for (int i = 0; i < array.Length; i++)
+            //    {
+            //        if (array[min] > array[i])
+            //        {
+            //            min = i;
+            //        }
+            //        if (array[max] < array[i])
+            //        {
+            //            max = i;
+            //        }
+            //    }
+            //int a = array[min];
+            //array[min] = array[max];
+            //array[max] = a;
+            //Console.WriteLine();
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //    Console.Write(array[i] + " ");
+            //}
+
 
 
 
